@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.batchmates.android.makingrestcalls.MainActivity">
+
+    <TextView
+        android:id="@+id/textTochange"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btnHTTP"
+        android:onClick="buttonClicker"
+        android:text="button one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    //Third party library
+    <Button
+        android:id="@+id/btnOkHTTP"
+        android:text="button two"
+        android:onClick="buttonClicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    //Third party library
+    <Button
+        android:id="@+id/btnRETROFIT"
+        android:text="button three"
+        android:onClick="buttonClicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRETROClass"
+        android:onClick="buttonClicker"
+        android:text="New Class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="buttonClicker"
+        android:id="@+id/observable"
+        android:text="Observable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
